@@ -42,3 +42,9 @@ console.log(arrFind)
 //Ex 4
 
 const ex4 = [13, 7, 8, 21];
+
+const arrReduce = ex4.reduce ((ac, n) => {
+        return ac + n;
+}, 0);
+
+console.log(arrReduce);
