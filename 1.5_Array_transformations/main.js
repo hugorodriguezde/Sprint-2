@@ -48,3 +48,30 @@ const arrReduce = ex4.reduce ((ac, n) => {
 }, 0);
 
 console.log(arrReduce);
+
+
+//Nivell 2
+
+
+//Ex 5
+
+const ex5 = [1, 3, 7, 10, 15, 17, 11, 5, 8, 12, 9]
+
+const arrResult = (arr) =>arr.filter(n => n>= 10).map(n => n * 2).reduce((ac, n) => ac + n);
+
+console.log(arrResult(ex5));
+
+
+//Nivell 3
+
+
+//Ex 6
+
+const ex6 = [11, 12, 13, 14]
+
+const arrSome = ex6.some (n => n >= 10);
+
+const arrEvery = ex6.every(n => n >= 10);
+
+console.log(arrSome)
+console.log(arrEvery)
